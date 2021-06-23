@@ -55,14 +55,14 @@ class RecipeService {
 function getRecipes() {
     return [
         {
-            id: '1', 
+            id: '0', 
             creationDate: new Date(), 
             ingredients: ['carrots'], 
             title: 'carrot cake', 
             description: 'tastiest carrot cake'
         },
         {
-            id: '2', 
+            id: '1', 
             creationDate: new Date(), 
             ingredients: ['tomatoes', 'penne paste'], 
             title: 'pasta', 
